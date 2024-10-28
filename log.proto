@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package raftrocksdb;
+
 option go_package = "github.com/bcrusu/raftrocksdb";
 
 import "google/protobuf/timestamp.proto";
